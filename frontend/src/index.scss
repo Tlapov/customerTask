@@ -1,0 +1,53 @@
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  html{
+     font-size: 1.25rem;
+  }
+  
+  a{
+    text-decoration: none !important;
+    color: white !important;
+  }
+  
+  footer{
+    background-color: black;
+    color: white;
+    padding: 1rem 0.5rem;
+    text-align: center;
+    span{
+      display: inline-block;
+    }
+    h4{
+      font-size: 1rem;
+    }
+  }
+  main{
+    height: 100vh;
+    display: grid;
+    grid-template-rows: auto 1fr auto;
+    h4 span{
+      font-weight: 200;
+    }
+  }
+  .table{
+    overflow: auto;
+    tr{
+      height: fit-content !important;
+    }
+  }
+  .table-container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  button{
+    font-size: 0.7rem !important;
+  }
+  form{
+    height: 70%;
+    column-gap: 2rem;
+  }
